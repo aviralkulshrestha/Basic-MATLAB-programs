@@ -1,0 +1,6 @@
+function [mmr,mmm]=minimax(M)
+X=max(M,[],2)-min(M,[],2);
+mmr=X';
+v=M(:);
+mmm=max(v)-min(v);
+end
