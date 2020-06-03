@@ -1,0 +1,12 @@
+function [det_mat] = detMat(m)
+len = length(m);
+det_mat{1} = m;
+det_mat{len} = det(m);
+for order = 2 : len - 1
+    perms = nchoosek(1:len,order);
+    for i = 1 : length(perms)
+        for j = 1 : length(perms)
+            det_mat{order}(i,j) = det(m(perms(i,1:end),perms(j,1:end)));
+        end
+    end
+end
