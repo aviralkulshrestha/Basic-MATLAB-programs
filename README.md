@@ -1,4 +1,4 @@
-# Basic-MATLAB-programs
+# MATLAB
 Some of the basic MATLAB programs. These programs are also there as assignments in the Introduction to programming with MATLAB course on Coursera.
 
 MATLAB (matrix laboratory) is a multi-paradigm numerical computing environment and proprietary programming language developed by MathWorks. MATLAB allows matrix manipulations, plotting of functions and data, implementation of algorithms, creation of user interfaces, and interfacing with programs written in other languages.
